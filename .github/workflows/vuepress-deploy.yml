@@ -15,4 +15,4 @@ jobs:
         TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: cd docs && yarn && yarn build
         BUILD_DIR: src/.vuepress/dist
-        CNAME: https://wintertime.kossnikita.ru
+        CNAME: http://wintertime.kossnikita.ru
