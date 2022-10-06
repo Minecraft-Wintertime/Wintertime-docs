@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-f734d3ce","path":"/guide/discord.html","title":"Discord","lang":"ru-RU","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1665032427000,"contributors":[{"name":"kossnikita","email":"kossnikita@gmail.com","commits":1}]},"filePathRelative":"guide/discord.md"}');export{t as data};

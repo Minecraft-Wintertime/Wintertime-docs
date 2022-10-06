@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-fffb8e28","path":"/guide/","title":"Minecraft Wintertime","lang":"ru-RU","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1665032427000,"contributors":[{"name":"kossnikita","email":"kossnikita@gmail.com","commits":1}]},"filePathRelative":"guide/README.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-827d4dd8","path":"/games/bedwars.html","title":"Bed Wars","lang":"ru-RU","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1665032427000,"contributors":[{"name":"kossnikita","email":"kossnikita@gmail.com","commits":1}]},"filePathRelative":"games/bedwars.md"}');export{e as data};

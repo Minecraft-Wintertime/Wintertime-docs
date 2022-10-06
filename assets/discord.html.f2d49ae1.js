@@ -1,0 +1,1 @@
+import{_ as c,o,c as r,a as e,b as s}from"./app.7ab34c99.js";const d={},t=e("h1",{id:"discord",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#discord","aria-hidden":"true"},"#"),s(" Discord")],-1),a=[t];function i(n,_){return o(),r("div",null,a)}const l=c(d,[["render",i],["__file","discord.html.vue"]]);export{l as default};
