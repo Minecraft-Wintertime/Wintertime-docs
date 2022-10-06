@@ -1,4 +1,33 @@
 {
     "cSpell.language": "en,ru",
+    "cSpell.words": [
+        "joingame",
+        "kossnikita",
+        "leavegame",
+        "MCWBC",
+        "Minecraft",
+        "resetarena",
+        "Royale",
+        "Skript",
+        "spleef",
+        "stopspleef",
+        "аддоны",
+        "бафы",
+        "дисклеймер",
+        "дроппер",
+        "ивенте",
+        "майнкрафте",
+        "Нотч",
+        "скрафтить",
+        "сплиф",
+        "стаке",
+        "чекпоинт",
+        "читерили"
+    ],
     "git.ignoreLimitWarning": true,
+    "markdownlint.config": {
+    "MD010": {
+        "code_blocks":false
+    }
+    },
 }

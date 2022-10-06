@@ -1,32 +1,10 @@
 # Для разработчиков
 
-## Правила написания Skript
+Большая часть игровой логики реализована в сценариях [Skript](https://docs.skriptlang.org/)
 
-В обязательном порядке все игры должны иметь команды для старта и завершения игры, а также переменную состояния игры (идет в данный момент игра или нет).
+Площадкой для общения является [Discord сервер](https://discord.gg/ude64dMX6y)
 
-Существуют общие скрипты *chat.sk* и *teams.sk* реализующие работу команд и чата.
-
-Для однородности кода следует придерживаться следующих правил:
-
-- Использовать Tab, а не пробел
-- Если весь код попадает под условие, лучше использовать in-line синтаксис. В противном случае писать *if* обязательно. К примеру, вместо:
-
-```skript
-if player has permission "admin":
-    message "You're admin!" 
-```
-
-разрешено использовать:
-
-```skript
-player has permission "admin"
-message "You're admin!"
-```
-
-- Скрипт не должен зависеть от конкретной карты, запрещено использовать конкретные координаты в коде
-- Не использовать аддоны кроме [skript-reflect](https://github.com/TPGamesNL/skript-reflect), [skript-db](https://git.limework.net/Limework/skript-db) и [SkBee](https://github.com/ShaneBeee/SkBee)
-- Для логики команд использовать *teams.sk*
-- Кодировка всех файлов UTF-8
+Для автоматизации процесса регистрации участников, адаптирован Discord бот
 
 ## Структура сервера
 
@@ -38,14 +16,6 @@ message "You're admin!"
 
 Для прокси используется [Velocity](https://github.com/PaperMC/Velocity). Для игровых серверов ядро [Patina](https://github.com/PatinaMC/Patina).
 Для поддержки Bedrock игроков плагины [Geyser](https://github.com/GeyserMC/Geyser) и [Floodgate](https://github.com/GeyserMC/Floodgate).
-
-## Полезные ссылки
-
-- [Основная документация](https://docs.skriptlang.org/)
-
-- [Документация по всем существующим выражениям](https://skripthub.net/docs/)
-
-- [Гайд для начинающих](https://skripthub.net/tutorials/17)
 
 ## Дисклеймер
 

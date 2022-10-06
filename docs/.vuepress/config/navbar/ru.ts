@@ -3,22 +3,35 @@ import { version } from '../meta.js'
 
 export const navbarRu: NavbarConfig = [
   {
+    text: 'Главная',
+    link: '/',
+  },
+  {
     text: 'Игры',
-    link: '/guide/',
+    children: [
+      '/games/README.md',
+      '/games/battleroyale.md',
+      '/games/bedwars.md',
+      '/games/boatrace.md',
+      '/games/dropper.md',
+      '/games/spleef.md'
+    ]
   },
   {
     text: 'Разработчикам',
     children: [
+      '/dev/README.md',
       {
-        text: 'VuePress',
+        text: 'Skript',
         children: [
-          '/dev/components.md',
-          '/dev/plugin-api.md',
-          '/dev/theme-api.md',
-          '/dev/client-api.md',
-          '/dev/node-api.md',
+          '/dev/skript/README.md',
+          '/dev/skript/references.md',
         ],
       },
     ]
+  },
+  {
+    text: 'Discord',
+    link: 'https://discord.gg/ude64dMX6y'
   }
 ]
